@@ -13,6 +13,8 @@ body {
     flex-direction: column;
 }
 
+/* header section */
+
 header {
     display: flex;
     flex-direction: column;
@@ -41,6 +43,8 @@ header nav ul li a {
     text-decoration: none;
     margin-left: 2rem;
 }
+
+/* hero section */
 
 .hero-container {
     display: flex;
@@ -96,8 +100,11 @@ header nav ul li a,
     align-items: center;
 }
 
+/* information section */
+
 .information {
     padding: 0 12vw;
+    padding-bottom: 50px;
 }
 
 .information h2 {
@@ -133,5 +140,81 @@ header nav ul li a,
 .info-card p {
     font-size: 18px;
     color: #6d747d;
+    text-align: center;
+}
+
+/* inspirational section */
+
+.inspirational-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #e5e7eb;
+
+    padding: 50px 24vw;
+}
+
+.inspirational-container q {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    padding-bottom: 1rem;
+}
+
+.inspirational-container p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+/* cta section */
+.cta {
+    margin: 100px auto;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 50px 100px;
+}
+
+.cta-container-left h2 {
+    font-size: 28px;
+}
+
+.cta-container-left p {
+    font-size: 18px;
+}
+
+.cta-container-right button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    margin-left: 2rem;
+}
+
+.cta-container-right button:hover {
+    background-color: #73a9ff;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 2rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #e5e7eb;
     text-align: center;
 }
